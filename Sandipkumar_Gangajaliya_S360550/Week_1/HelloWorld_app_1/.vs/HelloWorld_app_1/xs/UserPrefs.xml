@@ -1,4 +1,37 @@
 ﻿<Properties StartupConfiguration="{2D9A74EA-8CAB-4772-90FC-7119E2D7AB5C}|https">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.HelloWorld__app__1 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld__app__1 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld_app_1/Pages/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="HelloWorld_app_1/Pages/Privacy.cshtml" Line="10" Column="1" />
+      <File FileName="HelloWorld_app_1/Pages/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld_app_1/Pages/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld_app_1/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld_app_1/Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld_app_1/Pages/Index.cshtml" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloWorld_app_1" expanded="True">
+            <Node name="HelloWorld_app_1" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
