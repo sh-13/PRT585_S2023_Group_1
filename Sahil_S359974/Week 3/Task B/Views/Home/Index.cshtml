@@ -1,8 +1,68 @@
-﻿@{
+﻿@model Task_B.Models.MovieModel
+@{
     ViewData["Title"] = "Home Page";
 }
+<p>
+    <a asp-action="Create">Add New Movie</a>
+</p>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Release Date</th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>*@
+            <th>Director</th>
+            <th>Contact Email Address</th>
+            <th>Language</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.MovieList.Count > 0)
+        {
+            @foreach (var item in Model.MovieList)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReleaseDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Director)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmailAddress)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Language)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7">No movies found</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,12 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Task_B.Data;
+using Task_B.DBContext;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<Task_BContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Task_BContext") ?? throw new InvalidOperationException("Connection string 'Task_BContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var provider = builder.Services.BuildServiceProvider();
+var configuration = provider.GetRequiredService<IConfiguration>();
+builder.Services.AddDbContext<MoviesDBContext>(item => item.UseSqlServer(configuration.GetConnectionString("myconn")));
+// builder.Services.AddSingleton<MoviesDBContext>();
 
 var app = builder.Build();
 
