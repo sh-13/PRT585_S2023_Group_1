@@ -1,0 +1,12 @@
+﻿@model SimpleRequest
+
+<form asp-action="Index" method="post">
+    <label for="Text">Text:</label>
+    <input asp-for="Text" type="text" />
+    <input type="submit" value="Submit" />
+</form>
+
+@if (Model != null)
+{
+<p>You entered: @Model.Text</p>
+}
