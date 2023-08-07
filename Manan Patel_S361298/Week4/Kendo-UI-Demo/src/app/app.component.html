@@ -1,0 +1,14 @@
+<kendo-dropdownlist [data]="grades" (valueChange)="filterChange($event)" [defaultItem]="'All'"></kendo-dropdownlist>
+
+<kendo-grid [data]="filteredStudents">
+  <kendo-grid-column field="StudentID" title="ID"></kendo-grid-column>
+  <kendo-grid-column field="Name" title="Name"></kendo-grid-column>
+  <kendo-grid-column field="Grade" title="Grade"></kendo-grid-column>
+  <kendo-grid-column field="DateOfBirth" title="Date of Birth">
+    <ng-template kendoGridCellTemplate let-dataItem>
+      <kendo-dateinput [(value)]="dataItem.DateOfBirth"></kendo-dateinput>
+    </ng-template>
+  </kendo-grid-column>
+</kendo-grid>
+
+<button kendoButton>Click Me!</button>
