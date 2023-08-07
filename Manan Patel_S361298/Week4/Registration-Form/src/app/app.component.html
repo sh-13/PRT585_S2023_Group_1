@@ -1,0 +1,47 @@
+<mat-toolbar color="primary">
+  <span>Student Registration - CDU</span>
+</mat-toolbar>
+
+<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()" style="width: 300px; margin: auto; padding-top: 50px;">
+  <mat-form-field appearance="fill" class="form-field-width">
+    <mat-label>First Name</mat-label>
+    <input matInput formControlName="firstName" placeholder="Enter your first name" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field-width">
+    <mat-label>Last Name</mat-label>
+    <input matInput formControlName="lastName" placeholder="Enter your last name" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field-width">
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email" placeholder="Enter your email" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field-width">
+    <mat-label>Grade</mat-label>
+    <mat-select formControlName="grade" required>
+      <mat-option value="1">Grade HD</mat-option>
+      <mat-option value="2">Grade D</mat-option>
+      <mat-option value="2">Grade C</mat-option>
+      <mat-option value="2">Grade P</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-field-width">
+    <mat-label>Date of Birth</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="dob" required>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+
+  <div formGroupName="gender" style="margin-bottom: 15px;">
+    <label>Gender: </label>
+    <mat-radio-button value="male" style="margin-left: 15px;">Male</mat-radio-button>
+    <mat-radio-button value="female">Female</mat-radio-button>
+  </div>
+
+  <mat-checkbox formControlName="terms" required>I agree to the terms and conditions</mat-checkbox>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="registrationForm.invalid" style="display: block; width: 100%; margin-top: 20px;">Submit</button>
+</form>
