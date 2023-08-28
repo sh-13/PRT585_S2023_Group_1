@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/Users/gangajaliyasandeep/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/MVCApp.csproj",
+      "projectName": "MVCApp",
+      "projectPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/MVCApp.csproj",
+      "packagesPath": "/Users/gangajaliyasandeep/.nuget/packages/",
+      "outputPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/gangajaliyasandeep/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
