@@ -23,6 +23,7 @@ namespace _2DataAccessLayer.Context
         public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Unit> Units { get; set; }
+        public DbSet<Car> Cars { get; set; }
 
 
         //security models
