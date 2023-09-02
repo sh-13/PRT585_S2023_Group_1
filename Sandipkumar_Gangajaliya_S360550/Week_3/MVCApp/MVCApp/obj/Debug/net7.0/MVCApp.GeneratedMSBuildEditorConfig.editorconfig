@@ -16,18 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +26,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/View/Dashboard/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlldy9EYXNoYm9hcmQvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/View/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlldy9EYXNoYm9hcmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/View/Dashboard/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlldy9EYXNoYm9hcmQvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/View/Person/ViewPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlldy9QZXJzb24vVmlld1BlcnNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Sandipkumar_Gangajaliya_S360550/Week_3/MVCApp/MVCApp/Pages/Shared/_Layout.cshtml]

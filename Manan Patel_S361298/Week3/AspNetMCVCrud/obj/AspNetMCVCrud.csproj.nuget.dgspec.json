@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDU MANAN\\SEM 3\\PRT585\\Manan Patel_S361298\\Week3\\AspNetMCVCrud\\AspNetMCVCrud.csproj": {}
+    "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Manan Patel_S361298/Week3/AspNetMCVCrud/AspNetMCVCrud.csproj": {}
   },
   "projects": {
-    "D:\\CDU MANAN\\SEM 3\\PRT585\\Manan Patel_S361298\\Week3\\AspNetMCVCrud\\AspNetMCVCrud.csproj": {
+    "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Manan Patel_S361298/Week3/AspNetMCVCrud/AspNetMCVCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDU MANAN\\SEM 3\\PRT585\\Manan Patel_S361298\\Week3\\AspNetMCVCrud\\AspNetMCVCrud.csproj",
+        "projectUniqueName": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Manan Patel_S361298/Week3/AspNetMCVCrud/AspNetMCVCrud.csproj",
         "projectName": "AspNetMCVCrud",
-        "projectPath": "D:\\CDU MANAN\\SEM 3\\PRT585\\Manan Patel_S361298\\Week3\\AspNetMCVCrud\\AspNetMCVCrud.csproj",
-        "packagesPath": "C:\\Users\\manan\\.nuget\\packages\\",
-        "outputPath": "D:\\CDU MANAN\\SEM 3\\PRT585\\Manan Patel_S361298\\Week3\\AspNetMCVCrud\\obj\\",
+        "projectPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Manan Patel_S361298/Week3/AspNetMCVCrud/AspNetMCVCrud.csproj",
+        "packagesPath": "/Users/gangajaliyasandeep/.nuget/packages/",
+        "outputPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Manan Patel_S361298/Week3/AspNetMCVCrud/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/gangajaliyasandeep/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,32 @@
+﻿@model List<MVCApp.Models.Person>
+@{
+}
+
+<h1>Person</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> Id </th>
+            <th> FIrst Name </th>
+            <th> Last Email </th>
+            <th> Address </th>
+            <th> City </th>
+            <th>  </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.PersonId</td>
+                <td>@person.FirstName</td>
+                <td>@person.LastName</td>
+                <td>@person.Address</td>
+                <td>@person.City</td>
+                <td><a href="Employees/View/@employee.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

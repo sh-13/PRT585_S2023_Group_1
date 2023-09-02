@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{BBEED760-4E93-4D96-98A3-3B08BE20EAEE}|https">
-  <MonoDevelop.Ide.ItemProperties.MVCApp FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVCApp/appsettings.json">
+    <Files>
+      <File FileName="MVCApp/appsettings.json" Line="14" Column="1" />
+      <File FileName="MVCApp/Program.cs" />
+      <File FileName="MVCApp/Data/MVCAppDbContext.cs" />
+      <File FileName="MVCApp/View/Index.cshtml" />
+      <File FileName="MVCApp/Models/Person.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVCApp" expanded="True">
+            <Node name="MVCApp" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="View" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MVCApp PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>

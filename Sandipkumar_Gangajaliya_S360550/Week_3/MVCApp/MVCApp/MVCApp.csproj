@@ -8,4 +8,37 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controller\" />
+    <None Remove="View\" />
+    <None Remove="Data\" />
+    <None Remove="Data\MVCAppDbContext.proto" />
+    <None Remove="View\Person\" />
+    <None Remove="Models\" />
+    <None Remove="View\Dashboard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
+    <Folder Include="View\" />
+    <Folder Include="Data\" />
+    <Folder Include="View\Person\" />
+    <Folder Include="Models\" />
+    <Folder Include="View\Dashboard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="View\Person\AddPerson.cshtml" />
+    <Content Remove="View\Person\Index.cshtml" />
+  </ItemGroup>
 </Project>
