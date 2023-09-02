@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/2DataAccessLayer.csproj": {}
+  },
+  "projects": {
+    "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/1CommonInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/1CommonInfrastructure.csproj",
+        "projectName": "1CommonInfrastructure",
+        "projectPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/1CommonInfrastructure.csproj",
+        "packagesPath": "/Users/gangajaliyasandeep/.nuget/packages/",
+        "outputPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gangajaliyasandeep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/2DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/2DataAccessLayer.csproj",
+        "projectName": "2DataAccessLayer",
+        "projectPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/2DataAccessLayer.csproj",
+        "packagesPath": "/Users/gangajaliyasandeep/.nuget/packages/",
+        "outputPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gangajaliyasandeep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/1CommonInfrastructure.csproj": {
+                "projectPath": "/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/1CommonInfrastructure/1CommonInfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

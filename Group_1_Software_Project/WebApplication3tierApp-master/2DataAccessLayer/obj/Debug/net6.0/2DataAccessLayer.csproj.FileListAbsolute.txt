@@ -1,0 +1,17 @@
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/2DataAccessLayer.deps.json
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/2DataAccessLayer.runtimeconfig.json
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/2DataAccessLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/2DataAccessLayer.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/1CommonInfrastructure.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/bin/Debug/net6.0/1CommonInfrastructure.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.csproj.AssemblyReference.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.AssemblyInfoInputs.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.AssemblyInfo.cs
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.csproj.CopyComplete
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/refint/2DataAccessLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/2DataAccessLayer.genruntimeconfig.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/2DataAccessLayer/obj/Debug/net6.0/ref/2DataAccessLayer.dll

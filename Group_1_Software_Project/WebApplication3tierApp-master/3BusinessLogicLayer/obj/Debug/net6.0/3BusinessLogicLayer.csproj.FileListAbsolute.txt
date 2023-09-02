@@ -1,0 +1,17 @@
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/3BusinessLogicLayer.deps.json
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/3BusinessLogicLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/3BusinessLogicLayer.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/1CommonInfrastructure.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/2DataAccessLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/1CommonInfrastructure.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/bin/Debug/net6.0/2DataAccessLayer.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.csproj.AssemblyReference.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.AssemblyInfoInputs.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.AssemblyInfo.cs
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.csproj.CoreCompileInputs.cache
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.csproj.CopyComplete
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/refint/3BusinessLogicLayer.dll
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.pdb
+/Users/gangajaliyasandeep/Desktop/CDU/Sem3/PRT585/GroupProject/PRT585_S2023_Group_1/Group_1_Software_Project/WebApplication3tierApp-master/3BusinessLogicLayer/obj/Debug/net6.0/ref/3BusinessLogicLayer.dll
