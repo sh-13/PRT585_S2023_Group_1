@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of cars">
+      <td>{{ car.id }}</td>
+      <td>{{ car.carname }}</td>
+      <td>{{ car.carmodel }}</td>
+      <td>
+        <button (click)="onEdit(car)">Edit</button>
+        <button (click)="onDelete(car.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<app-car-form [car]="selectedCar" (carSaved)="onCarSaved($event)"></app-car-form>
