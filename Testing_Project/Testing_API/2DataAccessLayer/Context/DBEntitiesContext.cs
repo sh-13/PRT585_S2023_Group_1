@@ -24,7 +24,7 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<Unit> Units { get; set; }
         public DbSet<Car> Cars { get; set; }
-
+        public DbSet<Bike> Bikes { get; set; }
 
         //security models
         public DbSet<UserAccount> UserAccounts { get; set; }
