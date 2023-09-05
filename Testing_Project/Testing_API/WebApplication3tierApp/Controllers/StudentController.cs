@@ -36,10 +36,17 @@ namespace WebApplication3tierApp.Controllers
         }
 
         [HttpPost, Route("")]
-        public async Task<int> Create([FromBody] StudentDto requestDto)
+        public async Task<StudentDto?> Create([FromBody] StudentDto requestDto)
         {
             var StudentModel = requestDto.ToStudentModel();
-            return await _StudentService.CreateStudent(StudentModel);
+            var studentId = await _StudentService.CreateStudent(StudentModel);
+            var response = new StudentDto
+            {
+                StudentId = studentId,
+                StudentName = StudentModel.StudentName
+            };
+
+            return response;
         }
 
         [HttpPut, Route("update")]

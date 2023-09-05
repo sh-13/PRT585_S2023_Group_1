@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 class="mt-3">Student List</h1>
+    <div class="d-flex justify-content-end mt-3">
+        <table class="table mt-3">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <!-- Add other table headers if needed -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let student of students">
+                <td>{{ student.studentId }}</td>
+                <td>{{ student.studentName }}</td>
+                <!-- Add other table columns if needed -->
+              </tr>
+            </tbody>
+          </table>
+        <a [routerLink]="['/student/add']" class="btn btn-primary">Add Student</a>
+    </div>
+</div>
