@@ -6,7 +6,7 @@
             <tr>
               <th>ID</th>
               <th>Name</th>
-              <th>Delete</th>
+              <th>Delete / Update</th>
               <!-- Add other table headers if needed -->
             </tr>
           </thead>
@@ -15,6 +15,7 @@
               <td>{{ student.StudentId }}</td>
               <td>{{ student.StudentName }}</td>
               <button (click)="removeStudent(student.StudentId)" class="btn btn-danger">Remove</button>
+              <button [routerLink]="['/student/update']" class="btn btn-warning">Update</button>
               <!-- Add other table columns if needed -->
             </tr>
           </tbody>

@@ -17,7 +17,7 @@ export class AddStudentComponent {
     };
   }
 
-  onFormSubmit(){
+  onAddStudentSubmit(){
     this.studentService.addStudent(this.model).subscribe({next:(response) => {
       alert(this.model.StudentName + " added successfully with id " + response.StudentId)
     }})

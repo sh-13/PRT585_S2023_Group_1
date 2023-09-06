@@ -18,11 +18,6 @@ export class StudentListComponent implements OnInit {
     });
   }
 
-  // removeStudent(number: studentId){
-  //   this.studentService.removeStudent(studentId).subscribe({next:(response) => {
-  //     alert(this.model.StudentName + " added successfully with id " + response.StudentId)
-  //   }})
-  // }
   removeStudent(studentId: number) {
     this.studentService.removeStudent(studentId).subscribe({
       next: () => {
