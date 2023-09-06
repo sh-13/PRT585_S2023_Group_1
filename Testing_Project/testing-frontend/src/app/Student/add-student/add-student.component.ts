@@ -12,18 +12,14 @@ export class AddStudentComponent {
 
   constructor(private studentService: StudentService){
     this.model = {
-      studentId: 0,
-      studentName: ''
+      StudentId: 0,
+      StudentName: ''
     };
   }
 
   onFormSubmit(){
-    this.studentService.addStudent(this.model)
-    .subscribe({
-      next:(response) =>{
-        console.log("correct");
-        alert("Student added successfully" + response)
-      }
-    })
+    this.studentService.addStudent(this.model).subscribe({next:(response) => {
+      alert(this.model.StudentName + " added successfully with id " + response.StudentId)
+    }})
   }
 }

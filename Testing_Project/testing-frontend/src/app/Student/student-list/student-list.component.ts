@@ -13,11 +13,26 @@ export class StudentListComponent implements OnInit {
   constructor(private studentService: StudentService) {}
 
   ngOnInit(): void {
-    console.log("in init");
     this.studentService.showStudents().subscribe((data) => {
       this.students = data;
     });
-    
   }
 
+  // removeStudent(number: studentId){
+  //   this.studentService.removeStudent(studentId).subscribe({next:(response) => {
+  //     alert(this.model.StudentName + " added successfully with id " + response.StudentId)
+  //   }})
+  // }
+  removeStudent(studentId: number) {
+    this.studentService.removeStudent(studentId).subscribe({
+      next: () => {
+        // Remove the deleted student from the local students array
+        this.students = this.students.filter((student) => student.StudentId !== studentId);
+        alert('Student removed successfully');
+      },
+      error: (error) => {
+        alert('Error removing student. Please try again.');
+      }
+    });
+  }
 }

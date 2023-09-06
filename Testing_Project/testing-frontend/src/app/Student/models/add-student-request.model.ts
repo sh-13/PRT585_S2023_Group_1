@@ -1,4 +1,4 @@
 export interface AddStudentRequest{
-    studentId: number,
-    studentName: string
+    StudentId: number,
+    StudentName: string
 }

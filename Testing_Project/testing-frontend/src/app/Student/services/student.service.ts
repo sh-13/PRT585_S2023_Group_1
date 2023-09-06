@@ -11,14 +11,15 @@ export class StudentService {
 
   constructor(private http: HttpClient) { }
 
-  addStudent(model: AddStudentRequest): Observable<void> {
-    return this.http.post<void>('https://localhost:7246/api/Student', model)
+  addStudent(model: AddStudentRequest): Observable<AddStudentRequest> {
+    return this.http.post<AddStudentRequest>('https://localhost:7246/api/Student', model, {withCredentials: true})
   }
 
   showStudents(): Observable<Student[]> {
-    var x = this.http.get<Student[]>('https://localhost:7246/api/Student')
-    console.log(x)
-    return x
-    // return this.http.get<Student[]>('https://localhost:7246/api/Student')
+    return this.http.get<Student[]>('https://localhost:7246/api/Student', {withCredentials: true})
+  }
+
+  removeStudent(studentId: number): Observable<void>{
+    return this.http.delete<void>('https://localhost:7246/api/Student/' + studentId, {withCredentials: true})
   }
 }
