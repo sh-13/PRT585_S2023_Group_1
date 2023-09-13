@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="mt-3">Car List</h1>
+    <div class="d-flex justify-content-end mt-3">
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Delete / Update</th>
+              <!-- Add other table headers if needed -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let car of cars">
+              <td>{{ car.CarId }}</td>
+              <td>{{ car.CarCompanyName }}</td>
+              <!-- <button (click)="removeCar(car.CarId)" class="btn btn-danger">Remove</button> -->
+              <button [routerLink]="['/car/update']" class="btn btn-warning">Update</button>
+              <!-- Add other table columns if needed -->
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <button [routerLink]="['/car/add']" class="btn btn-primary">Add Car</button>
+</div>
