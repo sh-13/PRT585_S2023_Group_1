@@ -1,0 +1,31 @@
+<div class="container col-md-6 offset-md-3 mt-5">
+    <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+    <div class="card">
+        <h4 class="card-header">Login</h4>
+        <div class="card-body">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label class="form-label">User email</label>
+                    <input type="text" formControlName="UserEmail" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserEmail'].errors }" />
+                    <div *ngIf="submitted && f['UserEmail'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserEmail'].errors['required']">User email is required</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" formControlName="UserPassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserPassword'].errors }" />
+                    <div *ngIf="submitted && f['UserPassword'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserPassword'].errors['required']">Password is required</div>
+                    </div>
+                </div>
+                <div>
+                    <button [disabled]="loading" class="btn btn-primary" type="submit">
+                        <span *ngIf="loading" class="spinner-border spinner-border-sm me-1"></span>
+                        Login
+                    </button>
+                    <a routerLink="../register" class="btn btn-link">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -21,7 +21,7 @@ namespace WebApplication3tierApp.Controllers
             _logger = logger;
         }
 
-        [HttpGet("login", Name = "GetUser")]
+        [HttpPost, Route("login")]
         public async Task<UserDto?> Login(string UserEmail, string UserPassword)
         {
             var result = await _UserService.Login(UserEmail, UserPassword);

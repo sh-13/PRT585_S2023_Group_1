@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #a1e0a9;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: rgb(0, 0, 0);
+}
+
+.navbar button {
+  background-color: rgb(4, 112, 235);
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.navbar button:hover {
+  background-color: black;
+  color: white;
+}

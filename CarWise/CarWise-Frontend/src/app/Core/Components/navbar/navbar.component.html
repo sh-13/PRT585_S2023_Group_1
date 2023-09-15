@@ -1,16 +1,15 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">CarWise</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" [routerLink]="['/car']">Car</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </div>
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CarWise</a>
+    <div class="ml-auto">
+      <button class="btn btn-primary" *ngIf="!user" [routerLink]="['/user/login']">Login</button>
+      <div *ngIf="user" class="d-inline">
+        <a class="btn btn-link nav-item nav-link d-inline me-2" (click)="userhome()">
+          <i class="fas fa-user me-2"></i>
+          {{ user.UserFirstName }}
+        </a>
+        <button class="btn btn-link nav-item nav-link d-inline" (click)="logout()">Logout</button>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
