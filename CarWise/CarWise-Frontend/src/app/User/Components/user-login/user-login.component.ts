@@ -35,6 +35,11 @@ export class UserLoginComponent implements OnInit {
     });
   }
 
+  navigateToRegistration() {
+    // ... some logic here if needed
+    this.router.navigate(['/registration']);
+  }
+
   // convenience getter for easy access to form fields
   get f() { return this.form.controls; }
 
