@@ -10,7 +10,7 @@ import { UserLoginComponent } from './User/Components/user-login/user-login.comp
 import { ReactiveFormsModule } from '@angular/forms';
 import { RegistrationComponent } from './registration/registration.component';
 import { MatButtonModule } from '@angular/material/button';
-
+import { LoginService } from './User/Services/login.service';
 
 @NgModule({
   declarations: [
@@ -26,9 +26,9 @@ import { MatButtonModule } from '@angular/material/button';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [LoginService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

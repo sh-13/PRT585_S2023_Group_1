@@ -12,7 +12,7 @@ export class NavbarComponent {
   user?: User | null;
 
   constructor(private loginService: LoginService, private router: Router,) {
-    this.loginService.user.subscribe(x => this.user = x);
+    this.loginService.currentUserSubject.subscribe(x => this.user = x);
   }
 
   logout() {

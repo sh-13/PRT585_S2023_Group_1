@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">CarWise</a>
     <div class="ml-auto">
-      <button class="btn btn-primary" *ngIf="!user" [routerLink]="['/user/login']">Login</button>
+      <button class="btn btn-primary" *ngIf="!user" [routerLink]="['login']">Login</button>
       <div *ngIf="user" class="d-inline">
         <a class="btn btn-link nav-item nav-link d-inline me-2" (click)="userhome()">
           <i class="fas fa-user me-2"></i>
