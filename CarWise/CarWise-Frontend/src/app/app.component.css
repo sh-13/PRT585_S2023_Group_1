@@ -1,0 +1,10 @@
+.app-background {
+    background-image: url('../assets/home.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+  

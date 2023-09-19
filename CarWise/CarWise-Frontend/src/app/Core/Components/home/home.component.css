@@ -1,0 +1,31 @@
+/* home-page.component.css */
+/* Reset default margin and padding for the component */
+:host {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* Center the button vertically and horizontally */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Make the container full height of the viewport */
+}
+
+/* Style for the button */
+.center-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4d4d4d; /* Blue color for the button */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the button on hover */
+.center-button:hover {
+    background-color: black; /* Darker blue on hover */
+}

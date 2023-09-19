@@ -16,6 +16,14 @@ export class CarService {
     return this.http.get<Car[]>('https://localhost:7246/api/Car', {withCredentials: true})
   }
 
+  showMultipleCars() {
+    return this.http.get<Car[]>('https://localhost:7246/api/Car', {withCredentials: true});
+  }
+
+  getById(id: number | string) {
+    return this.http.get<Car>('https://localhost:7246/api/Car/' + id, {withCredentials: true});
+  }
+
   // getCar(carId: number): Observable<Car>{
   //   return this.http.get<Car>('https://localhost:7246/api/Car/' + carId, {withCredentials: true})
   // }

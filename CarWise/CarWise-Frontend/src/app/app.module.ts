@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './Core/Components/navbar/navbar.component';
@@ -8,9 +8,9 @@ import { CarListComponent } from './Car/Components/car-list/car-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserLoginComponent } from './User/Components/user-login/user-login.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { RegistrationComponent } from './registration/registration.component';
-import { MatButtonModule } from '@angular/material/button';
-import { LoginService } from './User/Services/login.service';
+import { UserRegistrationComponent } from './User/Components/user-registration/user-registration.component';
+import { CarDetailsComponent } from './Car/Components/car-details/car-details.component';
+import { HomeComponent } from './Core/Components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,17 +18,17 @@ import { LoginService } from './User/Services/login.service';
     NavbarComponent,
     CarListComponent,
     UserLoginComponent,
-    RegistrationComponent,
+    UserRegistrationComponent,
+    CarDetailsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    MatButtonModule,
+    HttpClientModule
   ],
-  providers: [LoginService],
-  bootstrap: [AppComponent],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

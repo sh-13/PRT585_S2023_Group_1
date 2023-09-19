@@ -8,14 +8,9 @@ import { LoginService } from '../../Services/login.service';
 @Component({
   selector: 'app-user-login',
   templateUrl: './user-login.component.html',
-  styleUrls: ['./user-login.component.css'],
+  styleUrls: ['./user-login.component.css']
 })
 export class UserLoginComponent implements OnInit {
-  defaultAuth: any = {
-    UserEmail: 'durvesh@gmail.com',
-    UserPassword: '1234567890',
-  };
-
   form!: FormGroup;
   loading = false;
   submitted = false;
@@ -27,28 +22,21 @@ export class UserLoginComponent implements OnInit {
     private router: Router,
     private loginService: LoginService
   ) {
-    // redirect to home if already logged in
-    if (this.loginService.currentUserSubject) {
-      this.router.navigate(['/']);
-    }
+      // redirect to home if already logged in
+      if (this.loginService.userValue) {
+          this.router.navigate(['/']);
+      }
   }
 
   ngOnInit() {
     this.form = this.formBuilder.group({
-      UserEmail: [this.defaultAuth.UserEmail, Validators.required],
-      UserPassword: [this.defaultAuth.UserPassword, Validators.required],
+      UserEmail: ['', Validators.required],
+      UserPassword: ['', Validators.required]
     });
   }
 
-  navigateToRegistration() {
-    // ... some logic here if needed
-    this.router.navigate(['/registration']);
-  }
-
   // convenience getter for easy access to form fields
-  get f() {
-    return this.form.controls;
-  }
+  get f() { return this.form.controls; }
 
   onSubmit() {
     this.submitted = true;
@@ -62,37 +50,18 @@ export class UserLoginComponent implements OnInit {
     }
 
     this.loading = true;
-    this.loginService
-      .login(this.f['UserEmail'].value, this.f['UserPassword'].value)
+    this.loginService.login(this.f['UserEmail'].value, this.f['UserPassword'].value)
       .pipe(first())
       .subscribe({
-        next: (response) => {
-          if (response) {
-            this.router.navigate(['/car']);
-          } else {
-            this.error = "error";
+          next: () => {
+            console.log("Correct");
+            this.router.navigate(['/cars']);
+          },
+          error: error => {
+            console.log("error");
+            this.error = error;
             this.loading = false;
           }
-        },
-        error: (error) => {
-          this.error = error;
-          this.loading = false;
-        },
       });
   }
-
-  /*   submit() {
-    this.hasError = false;
-    const loginSubscr = this.authService
-      .login(this.f.emailAddress.value, this.f.password.value)
-      .pipe(first())
-      .subscribe((user: UserModel | undefined) => {
-        if (user) {
-          this.router.navigate([this.returnUrl]);
-        } else {
-          this.hasError = true;
-        }
-      });
-    this.unsubscribe.push(loginSubscr);
-   }*/
 }

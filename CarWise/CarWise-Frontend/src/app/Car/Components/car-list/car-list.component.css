@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+thead {
+background-color: #f2f2f2;
+}
+
+th, td {
+border: 1px solid #e0e0e0;
+padding: 10px;
+text-align: left;
+}
+
+button {
+padding: 5px 15px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+.transbg {
+    background: transparent;
+}

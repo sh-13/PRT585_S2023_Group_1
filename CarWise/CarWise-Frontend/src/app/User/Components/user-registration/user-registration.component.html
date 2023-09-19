@@ -1,0 +1,54 @@
+<div class="container col-md-6 offset-md-3 mt-5">
+    <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+    <div class="card">
+        <h4 class="card-header">Registration</h4>
+        <div class="card-body">
+            <form [formGroup]="form" (ngSubmit)="onRegisterUserSubmit()">
+                <!-- User Email Field -->
+                <div class="mb-3">
+                    <label class="form-label">User Email</label>
+                    <input type="email" formControlName="UserEmail" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserEmail'].errors }" />
+                    <div *ngIf="submitted && f['UserEmail'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserEmail'].errors['required']">User email is required</div>
+                    </div>
+                </div>
+                
+                <!-- User Password Field -->
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" formControlName="UserPassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserPassword'].errors }" />
+                    <div *ngIf="submitted && f['UserPassword'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserPassword'].errors['required']">Password is required</div>
+                    </div>
+                </div>
+  
+                <!-- First Name Field -->
+                <div class="mb-3">
+                    <label class="form-label">First Name</label>
+                    <input type="text" formControlName="UserFirstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserFirstName'].errors }" />
+                    <div *ngIf="submitted && f['UserFirstName'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserFirstName'].errors['required']">First Name is required</div>
+                    </div>
+                </div>
+  
+                <!-- Last Name Field -->
+                <div class="mb-3">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" formControlName="UserLastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['UserLastName'].errors }" />
+                    <div *ngIf="submitted && f['UserLastName'].errors" class="invalid-feedback">
+                        <div *ngIf="f['UserLastName'].errors['required']">Last Name is required</div>
+                    </div>
+                </div>
+  
+                <!-- Buttons -->
+                <div>
+                    <button [disabled]="loading" class="btn btn-primary" type="submit">
+                        <span *ngIf="loading" class="spinner-border spinner-border-sm me-1"></span>
+                        Register
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </div>
+  

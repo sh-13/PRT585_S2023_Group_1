@@ -7,5 +7,6 @@ export interface Car{
     CarColour: string,
     CarOdometer: number,
     CarSeat: number,
-    CarRentPrice: number
+    CarRentPrice: number,
+    CarImage: string;
 }

@@ -1,0 +1,57 @@
+<main class="container">
+    <!-- <div class="p-4 p-md-5 mb-4 rounded d-none ">
+        <div class="col-md-6 px-0">
+
+            <h1 class="display-4 fst-italic">{{car.CarCompanyName}}</h1>
+            <h3 class="display-6 fst-italic">{{car.CarModelName}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarType}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarBuildYear}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarColour}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarOdometer}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarSeat}}</h3>
+            <h3 class="display-6 fst-italic">{{car.CarRentPrice}}</h3>
+
+        </div>
+    </div> -->
+
+
+    <div class="row g-5">
+        <div class="col-md-6">
+            <img class="card-img-top" [src]="'../assets/'+car.CarId+'.jpg'" alt="Card image cap">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                {{car.CarCompanyName}}
+            </h3>
+
+            <article class="blog-post">
+                <dl>
+                    <dt>Model</dt>
+                    <dd>{{car.CarModelName}}</dd>
+                    <dt>Type</dt>
+                    <dd>{{car.CarType}}</dd>
+                    <dt>Build Year</dt>
+                    <dd>{{car.CarBuildYear}}</dd>
+                    <dt>Colour</dt>
+                    <dd>{{car.CarColour}}</dd>
+                    <dt>Odometer</dt>
+                    <dd>{{car.CarOdometer}}</dd>
+                    <dt>Seat</dt>
+                    <dd>{{car.CarSeat}}</dd>
+                    <dt>Rent Price</dt>
+                    <dd>{{car.CarRentPrice}}</dd>
+                </dl>
+
+
+            </article>
+
+
+            <nav class="blog-pagination" aria-label="Pagination">
+                <a class="btn btn-outline-primary rounded-pill" [routerLink]="['/cars/']">Back</a>
+                
+            </nav>
+
+        </div>
+
+    </div>
+
+
+</main>
